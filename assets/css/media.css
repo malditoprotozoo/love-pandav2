@@ -169,12 +169,17 @@
 	}
 
 	#about-pandas p {
-	  font-size: 15px;
+	  font-size: 20px;
 	}
 
 	#about-pandas {
+    width: 58.333333%;
 	  padding: 32px;
 	}
+
+  .col-3 {
+    width: 16.666667%;
+  }
 
 	#pictures-title {
 	  font-size: 25px;
