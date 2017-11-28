@@ -1,13 +1,5 @@
 @media (min-width: 1200px) {
 
-	#title {
-	  font-size: 40px;
-	}
-
-	#subtitle {
-	  font-size: 17px;
-	}
-
 	.big-img {
 	  width: 100%;
 	  height: 640px;
@@ -26,25 +18,9 @@
 	#about-pandas {
 	  padding: 40px;
 	}
-
-	#pictures-title {
-	  font-size: 40px;
-	}
-
-	#pictures img {
-	  border: 10px solid white;
-	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
-	#title {
-	  font-size: 38px;
-	}
-
-	#subtitle {
-		font-size: 16px;
-	}
 
 	.big-img {
 	  width: 100%;
@@ -60,12 +36,16 @@
 	  font-size: 18px;
 	}
 
+  .img {
+    width: 50%;
+  }
+  
+  .hor-space {
+    display: none;
+  }
+
 	#about-pandas {
 	  padding: 38px;
-	}
-
-	#pictures-title {
-	  font-size: 38px;
 	}
 
 	#pictures img {
@@ -75,14 +55,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
-	#title {
-	  font-size: 36px;
-	}
-
-	#subtitle {
-		font-size: 15px;
-	}
 
 	.big-img {
 	  width: 100%;
@@ -95,72 +67,65 @@
 	}
 
 	#about-pandas p {
-	  font-size: 17px;
+	  font-size: 25px;
 	}
+
+  .hor-space {
+    display: none;
+  }
+
+  .img {
+    width: 50%;
+  }
 
 	#about-pandas {
-	  padding: 36px;
-	}
-
-	#pictures-title {
-	  font-size: 36px;
-	}
-
-	#pictures img {
-	  border: 8px solid white;
-	}
+    width: 100%;
+    padding: 34px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
 	
-	#title {
-	  font-size: 34px;
-	}
-
-	#subtitle {
-		font-size: 14px;
-	}
-
 	.big-img {
 	  width: 100%;
 	  height: 580px;
 	}
 
 	#about-pandas h3 {
-	  font-size: 19px;
+	  font-size: 25px;
 	  margin-bottom: 24px;
 	}
+
+  .img {
+    width: 100%;
+  }
 
 	#about-pandas p {
 	  font-size: 20px;
 	}
 
 	#about-pandas {
-	  padding: 34px;
-	}
-
-	#pictures-title {
-	  font-size: 34px;
-	}
-
-	#pictures img {
-	  border: 7px solid white;
-	}
+    width: 100%;
+    padding: 34px;
+  }
 }
 
 @media (max-width: 775px) {
 
 	#title {
-	  font-size: 32px;
+    text-align: center;
 	}
 
 	#subtitle {
-		font-size: 13px;
+    text-align: center;
 	}
 
 	.big-img {
 	  width: 100%;
+    background-size: cover;
+    background-position: center center;
 	  height: 560px;
+    background-repeat: no-repeat;
 	}
 
 	#about-pandas h3 {
@@ -173,25 +138,24 @@
 	}
 
 	#about-pandas {
-    width: 58.333333%;
+    width: 100%;
 	  padding: 32px;
 	}
 
-  .col-3 {
-    width: 16.666667%;
+  .space {
+    display: none;
   }
-
-	#pictures-title {
-	  font-size: 25px;
-	}
 
   .img {
     clear: left;
-    margin-left: 37%;
+    width: 100%;
   }
 
 	#pictures img {
     min-width: 86px;
-	  border: 6px solid white;
 	}
+
+  #footer-text {
+    text-align: center;
+  }
 }
